@@ -24,8 +24,7 @@ ERROR_SETUID_FAILED = -9
 ERROR_EXECVE_FAILED = -10
 ERROR_SPJ_ERROR = -11
 
-
-async def run(max_cpu_time,
+def run(max_cpu_time,
         max_real_time,
         max_memory,
         max_stack,
